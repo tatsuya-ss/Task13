@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		75E1C915253BAC55007F4D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1C914253BAC55007F4D3E /* AppDelegate.swift */; };
 		75E1C917253BAC55007F4D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1C916253BAC55007F4D3E /* SceneDelegate.swift */; };
-		75E1C919253BAC55007F4D3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1C918253BAC55007F4D3E /* ViewController.swift */; };
 		75E1C91C253BAC55007F4D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E1C91A253BAC55007F4D3E /* Main.storyboard */; };
 		75E1C91E253BAC57007F4D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E1C91D253BAC57007F4D3E /* Assets.xcassets */; };
 		75E1C921253BAC57007F4D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E1C91F253BAC57007F4D3E /* LaunchScreen.storyboard */; };
 		75E1C92A253BAC93007F4D3E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1C929253BAC93007F4D3E /* TableViewController.swift */; };
+		75E1CA06253CE3EF007F4D3E /* TuikaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1CA05253CE3EF007F4D3E /* TuikaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75E1C911253BAC55007F4D3E /* Task13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E1C914253BAC55007F4D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E1C916253BAC55007F4D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75E1C918253BAC55007F4D3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75E1C91B253BAC55007F4D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75E1C91D253BAC57007F4D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E1C920253BAC57007F4D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E1C922253BAC57007F4D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E1C929253BAC93007F4D3E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		75E1CA05253CE3EF007F4D3E /* TuikaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuikaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				75E1C914253BAC55007F4D3E /* AppDelegate.swift */,
 				75E1C916253BAC55007F4D3E /* SceneDelegate.swift */,
-				75E1C918253BAC55007F4D3E /* ViewController.swift */,
 				75E1C929253BAC93007F4D3E /* TableViewController.swift */,
+				75E1CA05253CE3EF007F4D3E /* TuikaViewController.swift */,
 				75E1C91A253BAC55007F4D3E /* Main.storyboard */,
 				75E1C91D253BAC57007F4D3E /* Assets.xcassets */,
 				75E1C91F253BAC57007F4D3E /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E1C919253BAC55007F4D3E /* ViewController.swift in Sources */,
+				75E1CA06253CE3EF007F4D3E /* TuikaViewController.swift in Sources */,
 				75E1C915253BAC55007F4D3E /* AppDelegate.swift in Sources */,
 				75E1C917253BAC55007F4D3E /* SceneDelegate.swift in Sources */,
 				75E1C92A253BAC93007F4D3E /* TableViewController.swift in Sources */,

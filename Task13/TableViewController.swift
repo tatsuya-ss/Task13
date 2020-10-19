@@ -9,14 +9,11 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    private let fruit = ["りんご","みかん","バナナ","パイナップル"]
+    private var fruit = ["りんご","みかん","バナナ","パイナップル"]
+    
    
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -24,7 +21,7 @@ class TableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var Identifier = ""
+        let Identifier: String
         if indexPath.row % 2 == 0{
             Identifier = "Cell1"
         }else{
@@ -38,4 +35,18 @@ class TableViewController: UITableViewController {
         return cell
     }
 
+    @IBAction func plusButton(_ sender: Any) {
+        performSegue(withIdentifier: "next", sender: nil)
+    }
+    
+    @IBAction func cancel(segue: UIStoryboardSegue){
+        
+    }
+    @IBAction func exit(segue: UIStoryboardSegue){
+       
+        let tuikaView = segue.source as? TuikaViewController
+        self.fruit.append((tuikaView?.addName!)!)
+        self.tableView.reloadData()
+    }
+    
 }
